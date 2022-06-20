@@ -2,7 +2,7 @@ import { filmsMock } from './filmsMock.js';
 
 const ALL_FILMS = 'all_films';
 const FAVOURITE_FILMS = 'favourite_films';
-// Инициализация localStorage;
+// Инициализация localStorage; 
 
 if (!fromStorage(ALL_FILMS) && !fromStorage(FAVOURITE_FILMS)) {
   toStorage(ALL_FILMS, filmsMock);
